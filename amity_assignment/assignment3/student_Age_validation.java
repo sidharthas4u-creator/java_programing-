@@ -26,8 +26,10 @@ public void registerStudent(int age)
 }
 public class student_Age_validation {
     public static void main(String[] args) {
-        System.out.print("Enter the age:");
+        System.out.print("Enter the name:");
         Scanner sc=new Scanner(System.in);
+        String name=sc.nextline();
+        System.out.print("Enter the age:");
         Student s=new Student();
         int age=sc.nextInt();
         s.registerStudent(age);
